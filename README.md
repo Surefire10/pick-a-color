@@ -1,6 +1,5 @@
-Pick-a-color
 
-Pick-a-color is a browser extension made to help designers and artists to get the color codes of any
+Pick-a-color is a browser extension made to help designers and artists get the color codes of any
 pixel on their screen using the eyedrop tool.
 
 as a user, you can then adjust the opacity and hue of your selected color, or pick a completely different one
