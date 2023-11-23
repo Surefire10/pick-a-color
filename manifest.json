@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Pick-a-Color",
+    "description": "See a color you like? use Pick-a-Color to grab its hexcode",
+    "version": "1.0",
+    "icons":{
+
+        "128":"./assets/icons/128.png",
+        "48": "./assets/icons/48.png",
+        "16": "./assets/icons/16.png"
+
+    },
+    "action": {
+      "default_popup": "main_pick.html",
+      "default_icon":"./assets/icons/48.png"
+    }
+  }

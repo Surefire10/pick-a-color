@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pick Me!
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./assets/coloris/dist/coloris.min.css">
+
+    </head>
+    <body>
+        <div class="main-container">
+            <div class = "text-container">
+                <div class="inner-text-container">
+                    <h2>Pick-a-Color.</h2>
+                    <div class = "help">
+                        <i  class = "help-icon" data-feather = "help-circle"></i>
+                    </div>
+                </div>
+                <div class = "help-overlay">
+                    <div class = "x-icon" id = "help">
+                        <i data-feather= "x"></i> 
+                    </div>
+                    <div class = "instructions">
+                        <h3>How to use:</h3>
+                        <ul>
+                            <li><h5>Click the blue button to start color capturing.</h5></li>
+                            <li><h5>The color of whatever pixel you choose will be ready to be copied.</h5></li>
+                            <li><h5>Change the hue and opacity of your color by clicking the box next to the text field. Or just pick an entirly different color.</h5></li>
+                            <li><h5>Fill up your palette with up to 10 colors. </h5></li>
+                            <li><h5>Enjoy :)</h5></li>
+                        </ul>
+                    </div>
+                </div>
+                <div >
+                    <h3>See a color that you like anywhere on your screen?
+                        We can help you grab it, change its opacity, hue and more!</h3> 
+                </div>
+            </div>
+            <div class = "color-picker">
+                <div class = "button-container">
+                    <button class = "button">
+                        <i class = "plus" data-feather = "plus-circle" ></i>
+                    </button>
+                </div>
+                <div class = "display-box">
+                    <input class = "color-code-box" value = "" size = "10"/>
+                </div>
+                
+                <div class = "color-grid"></div>
+            </div>
+        </div>
+          
+        <script src = "main_pick.js"></script>
+        <script src="./assets/feather-icons/dist/feather.js"></script>
+        <script src="./assets/coloris/dist/coloris.min.js"></script>
+
+    </body>
+</html>
