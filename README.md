@@ -8,14 +8,15 @@ using the built-in color-picker!
 Pick-a-color was built using pure Javascript utilizing native Eyedropper API and Coloris.js
 https://github.com/mdbassit/Coloris
 
-Compatible with Chrome, Edge and Opera (More coming soon :))
+Compatible with Chrome, Edge, and Opera (More coming soon :))
 
-How to Use
+<h3>How to Use</h3>
+
 Until this extension is available for users you can do the following to install it:
 
 1. Download the files available (make sure they're unzipped) in this repo or just clone it.
 
-1.2.On Chrome:
+<h4>1.1.On Chrome:</h4>
 
   1: Access Chrome Settings
   Open your Google Chrome browser and click on the three vertical dots in the top-right corner 
@@ -44,7 +45,7 @@ Until this extension is available for users you can do the following to install 
 
   Optionally you can pin the extension to your top bar. Now you can start using it locally.
 
-1.3.On Edge:
+<h4>1.2.On Edge:</h4>
 
    1: In Edge, select Settings and More (...) and then Extensions. Or type (edge://extensions)     in the search bar.
    
@@ -56,7 +57,7 @@ Until this extension is available for users you can do the following to install 
    click the Load unpacked button. The Select the extension directory dialog opens.
    
    4: Select the directory that contains your extension source files, and then click the Select    Folder button. Your extension is installed in your browser, 
-   similar to extensions that are installed from the store
+   similar to extensions that are installed from the store.
    
 
 
